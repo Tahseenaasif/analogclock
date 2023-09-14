@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clockcontainer{
+   background-color: white;
+     opacity: 0.9;
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+    position: relative;
+    border-radius: 50%;
+    
+   
+}
+
+.num{
+    position:absolute;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+    font-weight: bold;
+}
+.num1{
+    transform: rotate(0deg);
+    
+}
+.num2{
+    transform: rotate(30deg);
+}
+.num3{
+    transform: rotate(60deg);
+}
+.num4{
+    transform: rotate(90deg);
+}
+.num5{
+    transform: rotate(120deg);
+}
+.num6{
+    transform: rotate(150deg);
+}
+.num7{
+    transform: rotate(180deg);
+}
+.num8{
+    transform: rotate(210deg);
+}
+.num9{
+    transform: rotate(240deg);
+}
+.num10{
+    transform: rotate(270deg);
+}
+.num11{
+    transform: rotate(300deg);
+}
+.num12{
+    transform: rotate(330deg);
+}
+
+
+#hour,#minute,#second{
+   position:absolute;
+   background-color:black;
+   border-radius: 10px;
+   transform-origin:bottom ;
+
+}
+
+#hour{
+    height: 23%;
+    top:25%;
+    left: 48.85%;
+    width: 2%;
+    opacity: 0.8;
+    
+}
+
+
+
+#minute{
+    height: 30%;
+    top:19%;
+    left: 48.9%;
+    width: 1.6%;
+    opacity: 0.8;
+  
+    
+}
+
+#second{
+    height: 40%;
+    top:9%;
+    left: 49.25%;
+    width: 1%;
+    opacity: 0.8;
+   
+}
+
+.centerdot{
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    background-color:black;
+    top:47.5%;
+    left:47.5%;
+    border-radius: 50%;
+   
+}
